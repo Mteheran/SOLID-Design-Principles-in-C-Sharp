@@ -1,6 +1,6 @@
 ﻿namespace LSP
 {
-    public class ComplexInvoice
+    public class ComplexInvoice : IInvoice
     {
         public decimal Subtotal { get; set; }
         public decimal TaxRate { get; set; }

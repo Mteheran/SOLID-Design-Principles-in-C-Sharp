@@ -2,7 +2,7 @@
 {
     public class InvoicePrinter
     {
-        public void Print(Invoice invoice)
+        public void Print(IInvoice invoice)
         {
             // Logic goes here.
         }
