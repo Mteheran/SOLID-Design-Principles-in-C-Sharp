@@ -39,8 +39,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ComplexInvoice.cs" />
+    <Compile Include="ComplexInvoiceModifier.cs" />
+    <Compile Include="IInvoice.cs" />
+    <Compile Include="Invoice.cs" />
+    <Compile Include="InvoiceModifier.cs" />
+    <Compile Include="InvoicePrinter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\InvoiceSubtotalValidator.cs" />
+    <Compile Include="Validation\InvoiceTaxRateCalculator.cs" />
+    <Compile Include="Validation\InvoiceTaxValidator.cs" />
+    <Compile Include="Validation\InvoiceTotalValidator.cs" />
+    <Compile Include="Validation\InvoiceValidator.cs" />
+    <Compile Include="Validation\Validator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
