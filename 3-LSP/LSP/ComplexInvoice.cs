@@ -14,8 +14,6 @@
         public decimal CalculateTotal()
         {
             return Subtotal + CalculateTax();
-        }
-        
-        
+        }        
     }
 }

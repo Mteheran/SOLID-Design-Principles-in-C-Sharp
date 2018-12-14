@@ -1,9 +1,9 @@
 ﻿namespace OCP
 {
-    public class Invoice
+    public class Invoice : IInvoice
     {
         public decimal Subtotal { get; set; }
-        public decimal TaxRate { get; set; }
+        public decimal TaxRate { get; set; }       
 
         public decimal CalculateTax()
         {
@@ -12,8 +12,9 @@
 
         public decimal CalculateTotal()
         {
-            return Subtotal + CalculateTax();
-        }
+            var result =  Subtotal + CalculateTax();
 
+            return result;
+        }
     }
 }
