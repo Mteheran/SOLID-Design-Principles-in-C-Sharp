@@ -39,7 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IInvoice.cs" />
+    <Compile Include="IInvoiceInternational.cs" />
     <Compile Include="Invoice.cs" />
+    <Compile Include="InvoiceInternational.cs" />
     <Compile Include="InvoicePrinter.cs" />
     <Compile Include="InvoiceSubtotalValidator.cs" />
     <Compile Include="InvoiceTaxRateCalculator.cs" />
